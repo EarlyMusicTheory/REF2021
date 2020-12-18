@@ -1,0 +1,53 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": 
+    [
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Fire: Music Edition",
+            "webRoot": "${workspaceFolder}/Tinctoris/Music",
+            "pathMappings": [
+                {
+                    "url": "http://localhost:4000",
+                    "path": "${workspaceFolder}"
+                }
+            ],
+            "reAttach": true,
+            "url": "http://localhost:4000/Tinctoris/Music/view.html"
+        },
+        {
+            "name": "Music Edition",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:4000/Tinctoris/Music/view.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Music editor localhost",
+            "url": "http://localhost:4000/editor/music"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Treatise editor localhost",
+            "url": "http://localhost:4000/editor/treatise"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "De Arte II+III",
+            "url": "http://localhost:4000/Tinctoris/texts/dearte23/#showvars0=true&pane0=Edited"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Treatise test",
+            "url": "http://localhost:4000/Tinctoris/texts/#"
+        }
+    ]
+}
